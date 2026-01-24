@@ -1,0 +1,895 @@
+digraph {
+	fontsize=10 rankdir=TB
+	size="23.62204724409449,7.874015748031496!"
+	ratio=fill
+	margin=0.2
+	n01503061 [label=<b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01831712
+	n01831712 [label=<a<BR/>p<BR/>o<BR/>d<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01831712 -> n01833415
+	n01833415 [label=<t<BR/>r<BR/>e<BR/>e<BR/>_<BR/>s<BR/>w<BR/>i<BR/>f<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01831712 -> n01832167
+	n01832167 [label=<s<BR/>w<BR/>i<BR/>f<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01832167 -> n01832813
+	n01832813 [label=<c<BR/>h<BR/>i<BR/>m<BR/>n<BR/>e<BR/>y<BR/>_<BR/>s<BR/>w<BR/>i<BR/>f<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01832167 -> n01832493
+	n01832493 [label=<e<BR/>u<BR/>r<BR/>o<BR/>p<BR/>e<BR/>a<BR/>n<BR/>_<BR/>s<BR/>w<BR/>i<BR/>f<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01832167 -> n01833112
+	n01833112 [label=<s<BR/>w<BR/>i<BR/>f<BR/>t<BR/>l<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01831712 -> n01833805
+	n01833805 [label=<h<BR/>u<BR/>m<BR/>m<BR/>i<BR/>n<BR/>g<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>4<BR/>.<BR/>9<BR/>6> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01833805 -> n01834540
+	n01834540 [label=<t<BR/>h<BR/>o<BR/>r<BR/>n<BR/>b<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01833805 -> n01834177
+	n01834177 [label=<a<BR/>r<BR/>c<BR/>h<BR/>i<BR/>l<BR/>o<BR/>c<BR/>h<BR/>u<BR/>s<BR/>_<BR/>c<BR/>o<BR/>l<BR/>u<BR/>b<BR/>r<BR/>i<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01514859
+	n01514859 [label=<h<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>4<BR/>.<BR/>9<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01822602
+	n01822602 [label=<c<BR/>u<BR/>c<BR/>u<BR/>l<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01822602 -> n01825278
+	n01825278 [label=<t<BR/>o<BR/>u<BR/>r<BR/>a<BR/>c<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01822602 -> n01823013
+	n01823013 [label=<c<BR/>u<BR/>c<BR/>k<BR/>o<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01823013 -> n01823740
+	n01823740 [label=<b<BR/>l<BR/>a<BR/>c<BR/>k<BR/>-<BR/>b<BR/>i<BR/>l<BR/>l<BR/>e<BR/>d<BR/>_<BR/>c<BR/>u<BR/>c<BR/>k<BR/>o<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01823013 -> n01824344
+	n01824344 [label=<a<BR/>n<BR/>i<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01823013 -> n01824575
+	n01824575 [label=<c<BR/>o<BR/>u<BR/>c<BR/>a<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01824575 -> n01824749
+	n01824575 -> n01824862
+	n01823013 -> n01824035
+	n01824035 [label=<r<BR/>o<BR/>a<BR/>d<BR/>r<BR/>u<BR/>n<BR/>n<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01823013 -> n01823414
+	n01823414 [label=<e<BR/>u<BR/>r<BR/>o<BR/>p<BR/>e<BR/>a<BR/>n<BR/>_<BR/>c<BR/>u<BR/>c<BR/>k<BR/>o<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01514926
+	n01514926 [label=<n<BR/>e<BR/>s<BR/>t<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01517565
+	n01517565 [label=<r<BR/>a<BR/>t<BR/>i<BR/>t<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01519873
+	n01519873 [label=<e<BR/>m<BR/>u<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01523105
+	n01523105 [label=<m<BR/>o<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01523105 -> n01523248
+	n01523248 [label=<g<BR/>i<BR/>a<BR/>n<BR/>t<BR/>_<BR/>m<BR/>o<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01523105 -> n01523493
+	n01523493 [label=<a<BR/>n<BR/>o<BR/>m<BR/>a<BR/>l<BR/>o<BR/>p<BR/>t<BR/>e<BR/>r<BR/>y<BR/>x<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01521756
+	n01521756 [label=<r<BR/>h<BR/>e<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01522450
+	n01522450 [label=<e<BR/>l<BR/>e<BR/>p<BR/>h<BR/>a<BR/>n<BR/>t<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01521399
+	n01521399 [label=<r<BR/>h<BR/>e<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01519563
+	n01519563 [label=<c<BR/>a<BR/>s<BR/>s<BR/>o<BR/>w<BR/>a<BR/>r<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01518878
+	n01518878 [label=<o<BR/>s<BR/>t<BR/>r<BR/>i<BR/>c<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01517565 -> n01520576
+	n01520576 [label=<k<BR/>i<BR/>w<BR/>i<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01834918
+	n01834918 [label=<c<BR/>a<BR/>p<BR/>r<BR/>i<BR/>m<BR/>u<BR/>l<BR/>g<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01834918 -> n01835276
+	n01835276 [label=<g<BR/>o<BR/>a<BR/>t<BR/>s<BR/>u<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01835276 -> n01836087
+	n01836087 [label=<w<BR/>h<BR/>i<BR/>p<BR/>p<BR/>o<BR/>o<BR/>r<BR/>w<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01835276 -> n01836384
+	n01836384 [label=<n<BR/>i<BR/>g<BR/>h<BR/>t<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01835276 -> n01835918
+	n01835918 [label=<c<BR/>h<BR/>u<BR/>c<BR/>k<BR/>-<BR/>w<BR/>i<BR/>l<BR/>l<BR/>'<BR/>s<BR/>-<BR/>w<BR/>i<BR/>d<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01835276 -> n01836673
+	n01836673 [label=<p<BR/>o<BR/>o<BR/>r<BR/>w<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01835276 -> n01835769
+	n01835769 [label=<e<BR/>u<BR/>r<BR/>o<BR/>p<BR/>e<BR/>a<BR/>n<BR/>_<BR/>g<BR/>o<BR/>a<BR/>t<BR/>s<BR/>u<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01834918 -> n01837072
+	n01837072 [label=<f<BR/>r<BR/>o<BR/>g<BR/>m<BR/>o<BR/>u<BR/>t<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01834918 -> n01837526
+	n01837526 [label=<o<BR/>i<BR/>l<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01524359
+	n01524359 [label=<p<BR/>a<BR/>s<BR/>s<BR/>e<BR/>r<BR/>i<BR/>n<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01524359 -> n01584225
+	n01584225 [label=<w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01584225 -> n01585121
+	n01585121 [label=<m<BR/>a<BR/>r<BR/>s<BR/>h<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01585121 -> n01585287
+	n01585121 -> n01585422
+	n01584225 -> n01586374
+	n01586374 [label=<c<BR/>a<BR/>c<BR/>t<BR/>u<BR/>s<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01584225 -> n01585715
+	n01585715 [label=<r<BR/>o<BR/>c<BR/>k<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01584225 -> n01586020
+	n01586020 [label=<c<BR/>a<BR/>r<BR/>o<BR/>l<BR/>i<BR/>n<BR/>a<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01584225 -> n01584853
+	n01584853 [label=<h<BR/>o<BR/>u<BR/>s<BR/>e<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01584225 -> n01584695
+	n01584695 [label=<w<BR/>i<BR/>n<BR/>t<BR/>e<BR/>r<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01524359 -> n01525720
+	n01525720 [label=<o<BR/>s<BR/>c<BR/>i<BR/>n<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01597336
+	n01597336 [label=<t<BR/>a<BR/>n<BR/>a<BR/>g<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01597336 -> n01598074
+	n01597336 -> n01597737
+	n01597336 -> n01597906
+	n01597336 -> n01598271
+	n01525720 -> n01571126
+	n01571126 [label=<b<BR/>i<BR/>r<BR/>d<BR/>_<BR/>o<BR/>f<BR/>_<BR/>p<BR/>a<BR/>r<BR/>a<BR/>d<BR/>i<BR/>s<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01571126 -> n01571410
+	n01525720 -> n01575745
+	n01575745 [label=<o<BR/>l<BR/>d<BR/>_<BR/>w<BR/>o<BR/>r<BR/>l<BR/>d<BR/>_<BR/>o<BR/>r<BR/>i<BR/>o<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01575745 -> n01576076
+	n01575745 -> n01576358
+	n01525720 -> n01571904
+	n01571904 [label=<n<BR/>e<BR/>w<BR/>_<BR/>w<BR/>o<BR/>r<BR/>l<BR/>d<BR/>_<BR/>o<BR/>r<BR/>i<BR/>o<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01571904 -> n01572782
+	n01571904 -> n01573627
+	n01571904 -> n01574045
+	n01571904 -> n01573074
+	n01571904 -> n01572328
+	n01571904 -> n01573898
+	n01525720 -> n01594004
+	n01594004 [label=<f<BR/>a<BR/>i<BR/>r<BR/>y<BR/>_<BR/>b<BR/>l<BR/>u<BR/>e<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01542786
+	n01542786 [label=<w<BR/>e<BR/>a<BR/>v<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01542786 -> n01543383
+	n01542786 -> n01543936
+	n01542786 -> n01544208
+	n01542786 -> n01543632
+	n01542786 -> n01543175
+	n01525720 -> n01526766
+	n01526766 [label=<h<BR/>o<BR/>n<BR/>e<BR/>y<BR/>_<BR/>e<BR/>a<BR/>t<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01582856
+	n01582856 [label=<a<BR/>u<BR/>s<BR/>t<BR/>r<BR/>a<BR/>l<BR/>i<BR/>a<BR/>n<BR/>_<BR/>m<BR/>a<BR/>g<BR/>p<BR/>i<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01582856 -> n01583495
+	n01582856 -> n01583209
+	n01582856 -> n01583828
+	n01525720 -> n01586941
+	n01586941 [label=<m<BR/>o<BR/>c<BR/>k<BR/>i<BR/>n<BR/>g<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01527617
+	n01527617 [label=<l<BR/>a<BR/>r<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01527617 -> n01527917
+	n01525720 -> n01591697
+	n01591697 [label=<t<BR/>i<BR/>t<BR/>m<BR/>o<BR/>u<BR/>s<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01591697 -> n01592084
+	n01591697 -> n01592694
+	n01591697 -> n01593028
+	n01591697 -> n01593282
+	n01591697 -> n01592387
+	n01591697 -> n01593553
+	n01525720 -> n01528654
+	n01528654 [label=<p<BR/>i<BR/>p<BR/>i<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01528654 -> n01528845
+	n01525720 -> n01578575
+	n01578575 [label=<c<BR/>o<BR/>r<BR/>v<BR/>i<BR/>n<BR/>e<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01578575 -> n01579410
+	n01578575 -> n01581730
+	n01578575 -> n01580077
+	n01578575 -> n01579260
+	n01578575 -> n01582220
+	n01578575 -> n01579729
+	n01578575 -> n01579578
+	n01578575 -> n01579028
+	n01525720 -> n01600657
+	n01600657 [label=<b<BR/>o<BR/>w<BR/>e<BR/>r<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01600657 -> n01601410
+	n01600657 -> n01601068
+	n01525720 -> n01590583
+	n01590583 [label=<n<BR/>u<BR/>t<BR/>h<BR/>a<BR/>t<BR/>c<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01590583 -> n01591301
+	n01590583 -> n01591123
+	n01590583 -> n01591005
+	n01525720 -> n01587526
+	n01587526 [label=<c<BR/>a<BR/>t<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01526521
+	n01526521 [label=<s<BR/>o<BR/>n<BR/>g<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01587834
+	n01587834 [label=<t<BR/>h<BR/>r<BR/>a<BR/>s<BR/>h<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01587834 -> n01588002
+	n01525720 -> n01594372
+	n01594372 [label=<s<BR/>w<BR/>a<BR/>l<BR/>l<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01594372 -> n01594787
+	n01594372 -> n01595168
+	n01594372 -> n01595624
+	n01594372 -> n01595450
+	n01594372 -> n01594968
+	n01525720 -> n01557185
+	n01557185 [label=<t<BR/>h<BR/>r<BR/>u<BR/>s<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01557185 -> n01560280
+	n01557185 -> n01559804
+	n01557185 -> n01561732
+	n01557185 -> n01559160
+	n01557185 -> n01559639
+	n01557185 -> n01559477
+	n01557185 -> n01558461
+	n01557185 -> n01560636
+	n01557185 -> n01560105
+	n01557185 -> n01562265
+	n01557185 -> n01562451
+	n01557185 -> n01558149
+	n01557185 -> n01558765
+	n01557185 -> n01562014
+	n01557185 -> n01558594
+	n01557185 -> n01561181
+	n01557185 -> n01558307
+	n01557185 -> n01557962
+	n01557185 -> n01558993
+	n01557185 -> n01561452
+	n01525720 -> n01601694
+	n01601694 [label=<w<BR/>a<BR/>t<BR/>e<BR/>r<BR/>_<BR/>o<BR/>u<BR/>z<BR/>e<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01601694 -> n01602209
+	n01601694 -> n01602080
+	n01525720 -> n01555809
+	n01555809 [label=<o<BR/>l<BR/>d<BR/>_<BR/>w<BR/>o<BR/>r<BR/>l<BR/>d<BR/>_<BR/>f<BR/>l<BR/>y<BR/>c<BR/>a<BR/>t<BR/>c<BR/>h<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01555809 -> n01556514
+	n01555809 -> n01556182
+	n01525720 -> n01563128
+	n01563128 [label=<w<BR/>a<BR/>r<BR/>b<BR/>l<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01563128 -> n01563746
+	n01563128 -> n01567133
+	n01563128 -> n01564394
+	n01563128 -> n01563449
+	n01563128 -> n01564914
+	n01563128 -> n01565078
+	n01525720 -> n01589286
+	n01589286 [label=<c<BR/>r<BR/>e<BR/>e<BR/>p<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01589286 -> n01590220
+	n01589286 -> n01589718
+	n01589286 -> n01589893
+	n01525720 -> n01576695
+	n01576695 [label=<s<BR/>t<BR/>a<BR/>r<BR/>l<BR/>i<BR/>n<BR/>g<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01576695 -> n01577659
+	n01576695 -> n01577035
+	n01576695 -> n01577458
+	n01525720 -> n01598588
+	n01598588 [label=<s<BR/>h<BR/>r<BR/>i<BR/>k<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01598588 -> n01600085
+	n01598588 -> n01599556
+	n01598588 -> n01599741
+	n01598588 -> n01598988
+	n01525720 -> n01529672
+	n01529672 [label=<f<BR/>i<BR/>n<BR/>c<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01529672 -> n01540233
+	n01529672 -> n01531178
+	n01529672 -> n01541386
+	n01529672 -> n01532325
+	n01529672 -> n01533893
+	n01529672 -> n01534433
+	n01529672 -> n01531971
+	n01529672 -> n01532511
+	n01529672 -> n01534155
+	n01529672 -> n01530439
+	n01529672 -> n01534762
+	n01529672 -> n01541922
+	n01529672 -> n01533651
+	n01529672 -> n01541760
+	n01529672 -> n01531512
+	n01529672 -> n01531811
+	n01529672 -> n01544704
+	n01529672 -> n01531344
+	n01529672 -> n01530575
+	n01529672 -> n01533339
+	n01529672 -> n01537134
+	n01529672 -> n01533000
+	n01529672 -> n01532829
+	n01529672 -> n01531639
+	n01525720 -> n01597022
+	n01597022 [label=<w<BR/>o<BR/>o<BR/>d<BR/>_<BR/>s<BR/>w<BR/>a<BR/>l<BR/>l<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01602630
+	n01602630 [label=<v<BR/>i<BR/>r<BR/>e<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01602630 -> n01603000
+	n01602630 -> n01602832
+	n01602630 -> n01603152
+	n01525720 -> n01566645
+	n01566645 [label=<b<BR/>a<BR/>b<BR/>b<BR/>l<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01587278
+	n01587278 [label=<b<BR/>l<BR/>u<BR/>e<BR/>_<BR/>m<BR/>o<BR/>c<BR/>k<BR/>i<BR/>n<BR/>g<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01603600
+	n01603600 [label=<w<BR/>a<BR/>x<BR/>w<BR/>i<BR/>n<BR/>g<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01603600 -> n01603812
+	n01603600 -> n01603953
+	n01525720 -> n01588431
+	n01588431 [label=<n<BR/>e<BR/>w<BR/>_<BR/>z<BR/>e<BR/>a<BR/>l<BR/>a<BR/>n<BR/>d<BR/>_<BR/>w<BR/>r<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01588431 -> n01588725
+	n01588431 -> n01588996
+	n01525720 -> n01527194
+	n01527194 [label=<a<BR/>c<BR/>c<BR/>e<BR/>n<BR/>t<BR/>o<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01527194 -> n01527347
+	n01525720 -> n01528396
+	n01528396 [label=<w<BR/>a<BR/>g<BR/>t<BR/>a<BR/>i<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01525720 -> n01538955
+	n01538955 [label=<h<BR/>o<BR/>n<BR/>e<BR/>y<BR/>c<BR/>r<BR/>e<BR/>e<BR/>p<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01538955 -> n01539272
+	n01524359 -> n01545574
+	n01545574 [label=<l<BR/>y<BR/>r<BR/>e<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01524359 -> n01539573
+	n01539573 [label=<s<BR/>p<BR/>a<BR/>r<BR/>r<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01539573 -> n01540090
+	n01540090 [label=<t<BR/>r<BR/>e<BR/>e<BR/>_<BR/>s<BR/>p<BR/>a<BR/>r<BR/>r<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01539573 -> n01539925
+	n01539925 [label=<e<BR/>n<BR/>g<BR/>l<BR/>i<BR/>s<BR/>h<BR/>_<BR/>s<BR/>p<BR/>a<BR/>r<BR/>r<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01524359 -> n01546921
+	n01546921 [label=<t<BR/>y<BR/>r<BR/>a<BR/>n<BR/>n<BR/>i<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01546921 -> n01547832
+	n01547832 [label=<n<BR/>e<BR/>w<BR/>_<BR/>w<BR/>o<BR/>r<BR/>l<BR/>d<BR/>_<BR/>f<BR/>l<BR/>y<BR/>c<BR/>a<BR/>t<BR/>c<BR/>h<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01547832 -> n01550172
+	n01547832 -> n01549886
+	n01547832 -> n01548301
+	n01547832 -> n01555305
+	n01547832 -> n01550761
+	n01547832 -> n01549430
+	n01546921 -> n01553142
+	n01553142 [label=<a<BR/>n<BR/>t<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01553142 -> n01554017
+	n01553142 -> n01553762
+	n01553142 -> n01553527
+	n01546921 -> n01551711
+	n01551711 [label=<m<BR/>a<BR/>n<BR/>a<BR/>k<BR/>i<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01546921 -> n01552813
+	n01552813 [label=<o<BR/>v<BR/>e<BR/>n<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01546921 -> n01555004
+	n01555004 [label=<p<BR/>i<BR/>t<BR/>t<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01546921 -> n01554448
+	n01554448 [label=<w<BR/>o<BR/>o<BR/>d<BR/>h<BR/>e<BR/>w<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01524359 -> n01546506
+	n01546506 [label=<b<BR/>r<BR/>o<BR/>a<BR/>d<BR/>b<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01524359 -> n01546039
+	n01546039 [label=<s<BR/>c<BR/>r<BR/>u<BR/>b<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01825930
+	n01825930 [label=<c<BR/>o<BR/>r<BR/>a<BR/>c<BR/>i<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01828970
+	n01828970 [label=<b<BR/>e<BR/>e<BR/>_<BR/>e<BR/>a<BR/>t<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01829413
+	n01829413 [label=<h<BR/>o<BR/>r<BR/>n<BR/>b<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01829869
+	n01829869 [label=<h<BR/>o<BR/>o<BR/>p<BR/>o<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01829869 -> n01830042
+	n01830042 [label=<e<BR/>u<BR/>o<BR/>p<BR/>e<BR/>a<BR/>n<BR/>_<BR/>h<BR/>o<BR/>o<BR/>p<BR/>o<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01831360
+	n01831360 [label=<t<BR/>o<BR/>d<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01830479
+	n01830479 [label=<w<BR/>o<BR/>o<BR/>d<BR/>_<BR/>h<BR/>o<BR/>o<BR/>p<BR/>o<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01827403
+	n01827403 [label=<k<BR/>i<BR/>n<BR/>g<BR/>f<BR/>i<BR/>s<BR/>h<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01827403 -> n01828556
+	n01828556 [label=<k<BR/>o<BR/>o<BR/>k<BR/>a<BR/>b<BR/>u<BR/>r<BR/>r<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01827403 -> n01828096
+	n01828096 [label=<b<BR/>e<BR/>l<BR/>t<BR/>e<BR/>d<BR/>_<BR/>k<BR/>i<BR/>n<BR/>g<BR/>f<BR/>i<BR/>s<BR/>h<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01827403 -> n01827793
+	n01827793 [label=<e<BR/>u<BR/>r<BR/>a<BR/>s<BR/>i<BR/>a<BR/>n<BR/>_<BR/>k<BR/>i<BR/>n<BR/>g<BR/>f<BR/>i<BR/>s<BR/>h<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01826364
+	n01826364 [label=<r<BR/>o<BR/>l<BR/>l<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>6> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01826364 -> n01826844
+	n01826844 [label=<g<BR/>r<BR/>o<BR/>u<BR/>n<BR/>d<BR/>_<BR/>r<BR/>o<BR/>l<BR/>l<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01826364 -> n01826680
+	n01826680 [label=<e<BR/>u<BR/>r<BR/>o<BR/>p<BR/>e<BR/>a<BR/>n<BR/>_<BR/>r<BR/>o<BR/>l<BR/>l<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01825930 -> n01830915
+	n01830915 [label=<m<BR/>o<BR/>t<BR/>m<BR/>o<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01503976
+	n01503976 [label=<d<BR/>i<BR/>c<BR/>k<BR/>e<BR/>y<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01515078
+	n01515078 [label=<n<BR/>i<BR/>g<BR/>h<BR/>t<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01515078 -> n01515217
+	n01515217 [label=<n<BR/>i<BR/>g<BR/>h<BR/>t<BR/>_<BR/>r<BR/>a<BR/>v<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01816887
+	n01816887 [label=<p<BR/>a<BR/>r<BR/>r<BR/>o<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01819115
+	n01819115 [label=<c<BR/>o<BR/>c<BR/>k<BR/>a<BR/>t<BR/>o<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01819115 -> n01819313
+	n01819313 [label=<s<BR/>u<BR/>l<BR/>p<BR/>h<BR/>u<BR/>r<BR/>-<BR/>c<BR/>r<BR/>e<BR/>s<BR/>t<BR/>e<BR/>d<BR/>_<BR/>c<BR/>o<BR/>c<BR/>k<BR/>a<BR/>t<BR/>o<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01819115 -> n01819465
+	n01819465 [label=<p<BR/>i<BR/>n<BR/>k<BR/>_<BR/>c<BR/>o<BR/>c<BR/>k<BR/>a<BR/>t<BR/>o<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01818832
+	n01818832 [label=<k<BR/>e<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01817263
+	n01817263 [label=<p<BR/>o<BR/>p<BR/>i<BR/>n<BR/>j<BR/>a<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01817346
+	n01817346 [label=<p<BR/>o<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01819734
+	n01819734 [label=<c<BR/>o<BR/>c<BR/>k<BR/>a<BR/>t<BR/>e<BR/>e<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01820348
+	n01820348 [label=<l<BR/>o<BR/>r<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01820348 -> n01820546
+	n01820546 [label=<l<BR/>o<BR/>r<BR/>i<BR/>k<BR/>e<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01820546 -> n01821076
+	n01820546 -> n01820801
+	n01816887 -> n01821203
+	n01821203 [label=<p<BR/>a<BR/>r<BR/>a<BR/>k<BR/>e<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01821203 -> n01822300
+	n01822300 [label=<r<BR/>i<BR/>n<BR/>g<BR/>-<BR/>n<BR/>e<BR/>c<BR/>k<BR/>e<BR/>d<BR/>_<BR/>p<BR/>a<BR/>r<BR/>a<BR/>k<BR/>e<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01821203 -> n01821554
+	n01821554 [label=<c<BR/>a<BR/>r<BR/>o<BR/>l<BR/>i<BR/>n<BR/>a<BR/>_<BR/>p<BR/>a<BR/>r<BR/>a<BR/>k<BR/>e<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01821203 -> n01821869
+	n01821869 [label=<b<BR/>u<BR/>d<BR/>g<BR/>e<BR/>r<BR/>i<BR/>g<BR/>a<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01817953
+	n01817953 [label=<a<BR/>f<BR/>r<BR/>i<BR/>c<BR/>a<BR/>n<BR/>_<BR/>g<BR/>r<BR/>e<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01820052
+	n01820052 [label=<l<BR/>o<BR/>v<BR/>e<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01818515
+	n01818515 [label=<m<BR/>a<BR/>c<BR/>a<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>4<BR/>.<BR/>8<BR/>1> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01816887 -> n01818299
+	n01818299 [label=<a<BR/>m<BR/>a<BR/>z<BR/>o<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01516609
+	n01516609 [label=<s<BR/>i<BR/>n<BR/>o<BR/>r<BR/>n<BR/>i<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01524761
+	n01524761 [label=<n<BR/>o<BR/>n<BR/>p<BR/>a<BR/>s<BR/>s<BR/>e<BR/>r<BR/>i<BR/>n<BR/>e<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01517036
+	n01517036 [label=<i<BR/>b<BR/>e<BR/>r<BR/>o<BR/>-<BR/>m<BR/>e<BR/>s<BR/>o<BR/>r<BR/>n<BR/>i<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01789386
+	n01789386 [label=<g<BR/>a<BR/>l<BR/>l<BR/>i<BR/>n<BR/>a<BR/>c<BR/>e<BR/>o<BR/>u<BR/>s<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789386 -> n01810700
+	n01810700 [label=<c<BR/>o<BR/>l<BR/>u<BR/>m<BR/>b<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01810700 -> n01815601
+	n01815601 [label=<s<BR/>a<BR/>n<BR/>d<BR/>g<BR/>r<BR/>o<BR/>u<BR/>s<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01815601 -> n01816140
+	n01815601 -> n01816017
+	n01815601 -> n01816474
+	n01810700 -> n01811243
+	n01811243 [label=<d<BR/>o<BR/>d<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01810700 -> n01811542
+	n01811542 [label=<s<BR/>o<BR/>l<BR/>i<BR/>t<BR/>a<BR/>i<BR/>r<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01810700 -> n01811909
+	n01811909 [label=<p<BR/>i<BR/>g<BR/>e<BR/>o<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01811909 -> n01813088
+	n01811909 -> n01812866
+	n01811909 -> n01812187
+	n01811909 -> n01814370
+	n01811909 -> n01815270
+	n01811909 -> n01814549
+	n01811909 -> n01812662
+	n01811909 -> n01812337
+	n01789386 -> n01800424
+	n01800424 [label=<c<BR/>h<BR/>a<BR/>c<BR/>h<BR/>a<BR/>l<BR/>a<BR/>c<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01800424 -> n01800633
+	n01800633 [label=<t<BR/>e<BR/>x<BR/>a<BR/>s<BR/>_<BR/>c<BR/>h<BR/>a<BR/>c<BR/>h<BR/>a<BR/>l<BR/>a<BR/>c<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789386 -> n01801088
+	n01801088 [label=<m<BR/>e<BR/>g<BR/>a<BR/>p<BR/>o<BR/>d<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01801088 -> n01801876
+	n01801876 [label=<b<BR/>r<BR/>u<BR/>s<BR/>h<BR/>_<BR/>t<BR/>u<BR/>r<BR/>k<BR/>e<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01801088 -> n01802159
+	n01802159 [label=<m<BR/>a<BR/>l<BR/>e<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01801088 -> n01801479
+	n01801479 [label=<m<BR/>a<BR/>l<BR/>l<BR/>e<BR/>e<BR/>_<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01801479 -> n01801672
+	n01789386 -> n01809752
+	n01809752 [label=<h<BR/>o<BR/>a<BR/>t<BR/>z<BR/>i<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789386 -> n01791107
+	n01791107 [label=<j<BR/>u<BR/>n<BR/>g<BR/>l<BR/>e<BR/>_<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01791107 -> n01791463
+	n01791463 [label=<r<BR/>e<BR/>d<BR/>_<BR/>j<BR/>u<BR/>n<BR/>g<BR/>l<BR/>e<BR/>_<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01791107 -> n01791314
+	n01791314 [label=<j<BR/>u<BR/>n<BR/>g<BR/>l<BR/>e<BR/>_<BR/>c<BR/>o<BR/>c<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01791107 -> n01791388
+	n01791388 [label=<j<BR/>u<BR/>n<BR/>g<BR/>l<BR/>e<BR/>_<BR/>h<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789386 -> n01799679
+	n01799679 [label=<c<BR/>u<BR/>r<BR/>a<BR/>s<BR/>s<BR/>o<BR/>w<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789386 -> n01789740
+	n01789740 [label=<d<BR/>o<BR/>m<BR/>e<BR/>s<BR/>t<BR/>i<BR/>c<BR/>_<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01791954
+	n01791954 [label=<b<BR/>a<BR/>n<BR/>t<BR/>a<BR/>m<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01790171
+	n01790171 [label=<d<BR/>o<BR/>r<BR/>k<BR/>i<BR/>n<BR/>g<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01790398
+	n01790398 [label=<c<BR/>o<BR/>r<BR/>n<BR/>i<BR/>s<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01790304
+	n01790304 [label=<p<BR/>l<BR/>y<BR/>m<BR/>o<BR/>u<BR/>t<BR/>h<BR/>_<BR/>r<BR/>o<BR/>c<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01794158
+	n01794158 [label=<t<BR/>u<BR/>r<BR/>k<BR/>e<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01794158 -> n01794344
+	n01789740 -> n01790812
+	n01790812 [label=<c<BR/>o<BR/>c<BR/>h<BR/>i<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01791625
+	n01791625 [label=<c<BR/>h<BR/>i<BR/>c<BR/>k<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01791625 -> n01793715
+	n01791625 -> n01793435
+	n01791625 -> n01792530
+	n01791625 -> n01792640
+	n01791625 -> n01792158
+	n01791625 -> n01793565
+	n01791625 -> n01792042
+	n01791625 -> n01793340
+	n01789740 -> n01790557
+	n01790557 [label=<r<BR/>o<BR/>c<BR/>k<BR/>_<BR/>c<BR/>o<BR/>r<BR/>n<BR/>i<BR/>s<BR/>h<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01790711
+	n01790711 [label=<g<BR/>a<BR/>m<BR/>e<BR/>_<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789740 -> n01809106
+	n01809106 [label=<g<BR/>u<BR/>i<BR/>n<BR/>e<BR/>a<BR/>_<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01809106 -> n01809371
+	n01789386 -> n02153203
+	n02153203 [label=<g<BR/>a<BR/>m<BR/>e<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02153203 -> n01810268
+	n01810268 [label=<t<BR/>i<BR/>n<BR/>a<BR/>m<BR/>o<BR/>u<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02153203 -> n01795088
+	n01795088 [label=<g<BR/>r<BR/>o<BR/>u<BR/>s<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01795088 -> n01797020
+	n01795088 -> n01797601
+	n01795088 -> n01797886
+	n01795088 -> n01796340
+	n01795088 -> n01798484
+	n01795088 -> n01797307
+	n01795088 -> n01798168
+	n01795088 -> n01795545
+	n02153203 -> n01802721
+	n01802721 [label=<p<BR/>h<BR/>a<BR/>s<BR/>i<BR/>a<BR/>n<BR/>i<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01802721 -> n01803078
+	n01802721 -> n01806567
+	n01802721 -> n01807496
+	n01789386 -> n01799302
+	n01799302 [label=<g<BR/>u<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01799302 -> n01800195
+	n01800195 [label=<p<BR/>i<BR/>p<BR/>i<BR/>n<BR/>g<BR/>_<BR/>g<BR/>u<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01789386 -> n01794651
+	n01794651 [label=<o<BR/>c<BR/>e<BR/>l<BR/>l<BR/>a<BR/>t<BR/>e<BR/>d<BR/>_<BR/>t<BR/>u<BR/>r<BR/>k<BR/>e<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01838038
+	n01838038 [label=<p<BR/>i<BR/>c<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838038 -> n01843383
+	n01843383 [label=<t<BR/>o<BR/>u<BR/>c<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01843383 -> n01843719
+	n01843719 [label=<t<BR/>o<BR/>u<BR/>c<BR/>a<BR/>n<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838038 -> n01842788
+	n01842788 [label=<h<BR/>o<BR/>n<BR/>e<BR/>y<BR/>_<BR/>g<BR/>u<BR/>i<BR/>d<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838038 -> n01843065
+	n01843065 [label=<j<BR/>a<BR/>c<BR/>a<BR/>m<BR/>a<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838038 -> n01842235
+	n01842235 [label=<b<BR/>a<BR/>r<BR/>b<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838038 -> n01842504
+	n01842504 [label=<p<BR/>u<BR/>f<BR/>f<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838038 -> n01838598
+	n01838598 [label=<w<BR/>o<BR/>o<BR/>d<BR/>p<BR/>e<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838598 -> n01841943
+	n01841943 [label=<p<BR/>i<BR/>c<BR/>u<BR/>l<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838598 -> n01841679
+	n01841679 [label=<w<BR/>r<BR/>y<BR/>n<BR/>e<BR/>c<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838598 -> n01840775
+	n01840775 [label=<r<BR/>e<BR/>d<BR/>h<BR/>e<BR/>a<BR/>d<BR/>e<BR/>d<BR/>_<BR/>w<BR/>o<BR/>o<BR/>d<BR/>p<BR/>e<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838598 -> n01840412
+	n01840412 [label=<i<BR/>v<BR/>o<BR/>r<BR/>y<BR/>b<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838598 -> n01839598
+	n01839598 [label=<f<BR/>l<BR/>i<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01839598 -> n01840120
+	n01839598 -> n01839750
+	n01839598 -> n01839949
+	n01838598 -> n01841102
+	n01841102 [label=<s<BR/>a<BR/>p<BR/>s<BR/>u<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01841102 -> n01841441
+	n01841102 -> n01841288
+	n01838598 -> n01839086
+	n01839086 [label=<g<BR/>r<BR/>e<BR/>e<BR/>n<BR/>_<BR/>w<BR/>o<BR/>o<BR/>d<BR/>p<BR/>e<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01838598 -> n01839330
+	n01839330 [label=<d<BR/>o<BR/>w<BR/>n<BR/>y<BR/>_<BR/>w<BR/>o<BR/>o<BR/>d<BR/>p<BR/>e<BR/>c<BR/>k<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01604330
+	n01604330 [label=<b<BR/>i<BR/>r<BR/>d<BR/>_<BR/>o<BR/>f<BR/>_<BR/>p<BR/>r<BR/>e<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01604330 -> n01613294
+	n01613294 [label=<e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01613294 -> n01614925
+	n01614925 [label=<b<BR/>a<BR/>l<BR/>d<BR/>_<BR/>e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01613294 -> n01614038
+	n01614038 [label=<h<BR/>a<BR/>r<BR/>p<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01613294 -> n01614343
+	n01614343 [label=<g<BR/>o<BR/>l<BR/>d<BR/>e<BR/>n<BR/>_<BR/>e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01614343 -> n01614690
+	n01613294 -> n01613807
+	n01613807 [label=<e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01613294 -> n01614556
+	n01614556 [label=<t<BR/>a<BR/>w<BR/>n<BR/>y<BR/>_<BR/>e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01613294 -> n01615121
+	n01615121 [label=<s<BR/>e<BR/>a<BR/>_<BR/>e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01615121 -> n01615703
+	n01615121 -> n01615303
+	n01615121 -> n01615458
+	n01604330 -> n01621127
+	n01621127 [label=<o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01623880
+	n01623880 [label=<s<BR/>p<BR/>o<BR/>t<BR/>t<BR/>e<BR/>d<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01623706
+	n01623706 [label=<s<BR/>c<BR/>o<BR/>p<BR/>s<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01623706 -> n01624212
+	n01623706 -> n01624115
+	n01621127 -> n01622352
+	n01622352 [label=<h<BR/>o<BR/>r<BR/>n<BR/>e<BR/>d<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01622352 -> n01622483
+	n01621127 -> n01621635
+	n01621635 [label=<o<BR/>w<BR/>l<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01623615
+	n01623615 [label=<s<BR/>c<BR/>r<BR/>e<BR/>e<BR/>c<BR/>h<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01622120
+	n01622120 [label=<l<BR/>i<BR/>t<BR/>t<BR/>l<BR/>e<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01622779
+	n01622779 [label=<g<BR/>r<BR/>e<BR/>a<BR/>t<BR/>_<BR/>g<BR/>r<BR/>e<BR/>y<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>4<BR/>.<BR/>9<BR/>3> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01622959
+	n01622959 [label=<t<BR/>a<BR/>w<BR/>n<BR/>y<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01623110
+	n01623110 [label=<b<BR/>a<BR/>r<BR/>r<BR/>e<BR/>d<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01623425
+	n01623425 [label=<s<BR/>c<BR/>r<BR/>e<BR/>e<BR/>c<BR/>h<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01624537
+	n01624537 [label=<h<BR/>a<BR/>w<BR/>k<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01624833
+	n01624833 [label=<l<BR/>o<BR/>n<BR/>g<BR/>-<BR/>e<BR/>a<BR/>r<BR/>e<BR/>d<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01625562
+	n01625562 [label=<b<BR/>a<BR/>r<BR/>n<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01624305
+	n01624305 [label=<h<BR/>o<BR/>o<BR/>t<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01621127 -> n01625121
+	n01625121 [label=<l<BR/>a<BR/>u<BR/>g<BR/>h<BR/>i<BR/>n<BR/>g<BR/>_<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01604330 -> n01616318
+	n01616318 [label=<v<BR/>u<BR/>l<BR/>t<BR/>u<BR/>r<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01616318 -> n01616551
+	n01616551 [label=<a<BR/>e<BR/>g<BR/>y<BR/>p<BR/>i<BR/>i<BR/>d<BR/>a<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01616318 -> n01618922
+	n01618922 [label=<n<BR/>e<BR/>w<BR/>_<BR/>w<BR/>o<BR/>r<BR/>l<BR/>d<BR/>_<BR/>v<BR/>u<BR/>l<BR/>t<BR/>u<BR/>r<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01618922 -> n01620414
+	n01618922 -> n01619310
+	n01618922 -> n01619536
+	n01618922 -> n01620735
+	n01616318 -> n01616764
+	n01616764 [label=<o<BR/>l<BR/>d<BR/>_<BR/>w<BR/>o<BR/>r<BR/>l<BR/>d<BR/>_<BR/>v<BR/>u<BR/>l<BR/>t<BR/>u<BR/>r<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01616764 -> n01617766
+	n01616764 -> n01618082
+	n01616764 -> n01617443
+	n01616764 -> n01617095
+	n01604330 -> n01605630
+	n01605630 [label=<h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01608265
+	n01608265 [label=<h<BR/>o<BR/>n<BR/>e<BR/>y<BR/>_<BR/>b<BR/>u<BR/>z<BR/>z<BR/>a<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01606809
+	n01606809 [label=<c<BR/>o<BR/>o<BR/>p<BR/>e<BR/>r<BR/>'<BR/>s<BR/>_<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01610955
+	n01610955 [label=<f<BR/>a<BR/>l<BR/>c<BR/>o<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01610955 -> n01611800
+	n01610955 -> n01611472
+	n01610955 -> n01612275
+	n01610955 -> n01611969
+	n01610955 -> n01612628
+	n01610955 -> n01612476
+	n01610955 -> n01612122
+	n01605630 -> n01607429
+	n01607429 [label=<r<BR/>e<BR/>d<BR/>t<BR/>a<BR/>i<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01606522
+	n01606522 [label=<g<BR/>o<BR/>s<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01606978
+	n01606978 [label=<c<BR/>h<BR/>i<BR/>c<BR/>k<BR/>e<BR/>n<BR/>_<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01607962
+	n01607962 [label=<b<BR/>u<BR/>z<BR/>z<BR/>a<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01606097
+	n01606097 [label=<e<BR/>y<BR/>a<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01608432
+	n01608432 [label=<k<BR/>i<BR/>t<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01608432 -> n01609391
+	n01608432 -> n01608814
+	n01608432 -> n01609062
+	n01605630 -> n01606672
+	n01606672 [label=<s<BR/>p<BR/>a<BR/>r<BR/>r<BR/>o<BR/>w<BR/>_<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01606177
+	n01606177 [label=<t<BR/>i<BR/>e<BR/>r<BR/>c<BR/>e<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01607309
+	n01607309 [label=<b<BR/>u<BR/>t<BR/>e<BR/>o<BR/>n<BR/>i<BR/>n<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01610552
+	n01610552 [label=<h<BR/>a<BR/>r<BR/>r<BR/>i<BR/>e<BR/>r<BR/>_<BR/>e<BR/>a<BR/>g<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01609751
+	n01609751 [label=<h<BR/>a<BR/>r<BR/>r<BR/>i<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01609751 -> n01610100
+	n01609751 -> n01610226
+	n01609751 -> n01609956
+	n01605630 -> n01616086
+	n01616086 [label=<o<BR/>s<BR/>p<BR/>r<BR/>e<BR/>y<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01607812
+	n01607812 [label=<r<BR/>e<BR/>d<BR/>-<BR/>s<BR/>h<BR/>o<BR/>u<BR/>l<BR/>d<BR/>e<BR/>r<BR/>e<BR/>d<BR/>_<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01605630 -> n01607600
+	n01607600 [label=<r<BR/>o<BR/>u<BR/>g<BR/>h<BR/>-<BR/>l<BR/>e<BR/>g<BR/>g<BR/>e<BR/>d<BR/>_<BR/>h<BR/>a<BR/>w<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01604330 -> n01604968
+	n01604968 [label=<a<BR/>c<BR/>c<BR/>i<BR/>p<BR/>i<BR/>t<BR/>r<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>e<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01604330 -> n01618503
+	n01618503 [label=<s<BR/>e<BR/>c<BR/>r<BR/>e<BR/>t<BR/>a<BR/>r<BR/>y<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01515303
+	n01515303 [label=<b<BR/>i<BR/>r<BR/>d<BR/>_<BR/>o<BR/>f<BR/>_<BR/>p<BR/>a<BR/>s<BR/>s<BR/>a<BR/>g<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01844231
+	n01844231 [label=<t<BR/>r<BR/>o<BR/>g<BR/>o<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01844231 -> n01844551
+	n01844551 [label=<q<BR/>u<BR/>e<BR/>t<BR/>z<BR/>a<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01844551 -> n01844746
+	n01844746 [label=<r<BR/>e<BR/>s<BR/>p<BR/>l<BR/>e<BR/>n<BR/>d<BR/>e<BR/>n<BR/>t<BR/>_<BR/>q<BR/>u<BR/>e<BR/>t<BR/>z<BR/>e<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01516212
+	n01516212 [label=<a<BR/>r<BR/>c<BR/>h<BR/>a<BR/>e<BR/>o<BR/>p<BR/>t<BR/>e<BR/>r<BR/>y<BR/>x<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01517966
+	n01517966 [label=<c<BR/>a<BR/>r<BR/>i<BR/>n<BR/>a<BR/>t<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01514668
+	n01514668 [label=<c<BR/>o<BR/>c<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>5<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01514668 -> n01514752
+	n01514752 [label=<g<BR/>a<BR/>m<BR/>e<BR/>c<BR/>o<BR/>c<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01844917
+	n01844917 [label=<a<BR/>q<BR/>u<BR/>a<BR/>t<BR/>i<BR/>c<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01844917 -> n01845132
+	n01845132 [label=<w<BR/>a<BR/>t<BR/>e<BR/>r<BR/>f<BR/>o<BR/>w<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01845132 -> n01845477
+	n01845477 [label=<a<BR/>n<BR/>s<BR/>e<BR/>r<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01845477 -> n01846331
+	n01845477 -> n01855672
+	n01845132 -> n01860497
+	n01860497 [label=<s<BR/>c<BR/>r<BR/>e<BR/>a<BR/>m<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01860497 -> n01861148
+	n01860497 -> n01860864
+	n01844917 -> n02016358
+	n02016358 [label=<g<BR/>a<BR/>l<BR/>l<BR/>i<BR/>n<BR/>u<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02016358 -> n02016956
+	n02016956 [label=<p<BR/>u<BR/>r<BR/>p<BR/>l<BR/>e<BR/>_<BR/>g<BR/>a<BR/>l<BR/>l<BR/>i<BR/>n<BR/>u<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02016956 -> n02017475
+	n02016956 -> n02017213
+	n02016358 -> n02016816
+	n02016816 [label=<m<BR/>o<BR/>o<BR/>r<BR/>h<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02016358 -> n02016659
+	n02016659 [label=<f<BR/>l<BR/>o<BR/>r<BR/>i<BR/>d<BR/>a<BR/>_<BR/>g<BR/>a<BR/>l<BR/>l<BR/>i<BR/>n<BR/>u<BR/>l<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01844917 -> n01858441
+	n01858441 [label=<s<BR/>w<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01858780
+	n01858780 [label=<c<BR/>o<BR/>b<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01858281
+	n01858281 [label=<c<BR/>o<BR/>s<BR/>c<BR/>o<BR/>r<BR/>o<BR/>b<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01859496
+	n01859496 [label=<t<BR/>u<BR/>n<BR/>d<BR/>r<BR/>a<BR/>_<BR/>s<BR/>w<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01859496 -> n01859689
+	n01859496 -> n01859852
+	n01858441 -> n01859190
+	n01859190 [label=<m<BR/>u<BR/>t<BR/>e<BR/>_<BR/>s<BR/>w<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01859325
+	n01859325 [label=<w<BR/>h<BR/>o<BR/>o<BR/>p<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01860187
+	n01860187 [label=<b<BR/>l<BR/>a<BR/>c<BR/>k<BR/>_<BR/>s<BR/>w<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>4<BR/>.<BR/>9<BR/>6> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01858906
+	n01858906 [label=<c<BR/>y<BR/>g<BR/>n<BR/>e<BR/>t<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01858845
+	n01858845 [label=<p<BR/>e<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>5> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01858441 -> n01860002
+	n01860002 [label=<t<BR/>r<BR/>u<BR/>m<BR/>p<BR/>e<BR/>t<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>4> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01844917 -> n02000954
+	n02000954 [label=<w<BR/>a<BR/>d<BR/>i<BR/>n<BR/>g<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02020345
+	n02020345 [label=<o<BR/>r<BR/>t<BR/>y<BR/>g<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02012849
+	n02012849 [label=<c<BR/>r<BR/>a<BR/>n<BR/>e<BR/>.<BR/>n<BR/>.<BR/>0<BR/>5<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02012849 -> n02013177
+	n02000954 -> n02005790
+	n02005790 [label=<i<BR/>b<BR/>i<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02005790 -> n02006364
+	n02005790 -> n02006063
+	n02000954 -> n02007558
+	n02007558 [label=<f<BR/>l<BR/>a<BR/>m<BR/>i<BR/>n<BR/>g<BR/>o<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>4<BR/>.<BR/>8<BR/>1> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02014237
+	n02014237 [label=<c<BR/>r<BR/>e<BR/>s<BR/>t<BR/>e<BR/>d<BR/>_<BR/>c<BR/>a<BR/>r<BR/>i<BR/>a<BR/>m<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02014941
+	n02014941 [label=<r<BR/>a<BR/>i<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>5> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02014941 -> n02015357
+	n02014941 -> n02015554
+	n02014941 -> n02018027
+	n02014941 -> n02017725
+	n02000954 -> n02018795
+	n02018795 [label=<b<BR/>u<BR/>s<BR/>t<BR/>a<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02018795 -> n02019190
+	n02018795 -> n02019438
+	n02000954 -> n02013706
+	n02013706 [label=<l<BR/>i<BR/>m<BR/>p<BR/>k<BR/>i<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02022684
+	n02022684 [label=<s<BR/>h<BR/>o<BR/>r<BR/>e<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02022684 -> n02036053
+	n02022684 -> n02039171
+	n02022684 -> n02034661
+	n02022684 -> n02037464
+	n02022684 -> n02037110
+	n02022684 -> n02030996
+	n02022684 -> n02033561
+	n02022684 -> n02026059
+	n02022684 -> n02036711
+	n02022684 -> n02038993
+	n02022684 -> n02031934
+	n02022684 -> n02040266
+	n02022684 -> n02034129
+	n02022684 -> n02023341
+	n02022684 -> n02026629
+	n02000954 -> n02019929
+	n02019929 [label=<b<BR/>u<BR/>t<BR/>t<BR/>o<BR/>n<BR/>_<BR/>q<BR/>u<BR/>a<BR/>i<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02019929 -> n02020219
+	n02000954 -> n02020578
+	n02020578 [label=<p<BR/>l<BR/>a<BR/>i<BR/>n<BR/>_<BR/>w<BR/>a<BR/>n<BR/>d<BR/>e<BR/>r<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02005399
+	n02005399 [label=<s<BR/>h<BR/>o<BR/>e<BR/>b<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02013567
+	n02013567 [label=<c<BR/>o<BR/>u<BR/>r<BR/>l<BR/>a<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02000954 -> n02021050
+	n02021050 [label=<t<BR/>r<BR/>u<BR/>m<BR/>p<BR/>e<BR/>t<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>3> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02021050 -> n02021281
+	n02000954 -> n02006656
+	n02006656 [label=<s<BR/>p<BR/>o<BR/>o<BR/>n<BR/>b<BR/>i<BR/>l<BR/>l<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1<BR/>
+<BR/>s<BR/>c<BR/>o<BR/>r<BR/>e<BR/>=<BR/>5<BR/>.<BR/>0<BR/>0> fillcolor=lightgreen fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02006656 -> n02006985
+	n02006656 -> n02007284
+	n02000954 -> n02008041
+	n02008041 [label=<h<BR/>e<BR/>r<BR/>o<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>2> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02008041 -> n02008497
+	n02008041 -> n02009229
+	n02008041 -> n02011460
+	n02008041 -> n02010453
+	n02008041 -> n02008643
+	n02008041 -> n02011281
+	n02008041 -> n02008796
+	n02000954 -> n02002075
+	n02002075 [label=<s<BR/>t<BR/>o<BR/>r<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02002075 -> n02004855
+	n02002075 -> n02002724
+	n02002075 -> n02003839
+	n02002075 -> n02002556
+	n02002075 -> n02004131
+	n02002075 -> n02003204
+	n02002075 -> n02003037
+	n02002075 -> n02003577
+	n02002075 -> n02004492
+	n02000954 -> n02014524
+	n02014524 [label=<c<BR/>h<BR/>u<BR/>n<BR/>g<BR/>a<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01844917 -> n02021795
+	n02021795 [label=<s<BR/>e<BR/>a<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02021795 -> n02057731
+	n02057731 [label=<p<BR/>e<BR/>l<BR/>a<BR/>g<BR/>i<BR/>c<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02057731 -> n02058221
+	n02057731 -> n02059162
+	n02057731 -> n02057898
+	n02057731 -> n02061853
+	n02021795 -> n02048698
+	n02048698 [label=<g<BR/>a<BR/>v<BR/>i<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>s<BR/>e<BR/>a<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02048698 -> n02049088
+	n02021795 -> n02040505
+	n02040505 [label=<c<BR/>o<BR/>a<BR/>s<BR/>t<BR/>a<BR/>l<BR/>_<BR/>d<BR/>i<BR/>v<BR/>i<BR/>n<BR/>g<BR/>_<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02040505 -> n02044178
+	n02040505 -> n02041085
+	n02040505 -> n02043808
+	n02021795 -> n02047614
+	n02047614 [label=<p<BR/>u<BR/>f<BR/>f<BR/>i<BR/>n<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02047614 -> n02048115
+	n02047614 -> n02047975
+	n02047614 -> n02048353
+	n02021795 -> n02051474
+	n02051474 [label=<p<BR/>e<BR/>l<BR/>e<BR/>c<BR/>a<BR/>n<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>s<BR/>e<BR/>a<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02051474 -> n02051845
+	n02051474 -> n02055107
+	n02051474 -> n02054502
+	n02051474 -> n02054036
+	n02051474 -> n02052775
+	n02051474 -> n02053083
+	n02021795 -> n02049532
+	n02049532 [label=<p<BR/>o<BR/>d<BR/>i<BR/>c<BR/>i<BR/>p<BR/>i<BR/>t<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>s<BR/>e<BR/>a<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02049532 -> n02050004
+	n02021795 -> n02045369
+	n02045369 [label=<a<BR/>u<BR/>k<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02045369 -> n02046442
+	n02045369 -> n02045596
+	n02045369 -> n02046171
+	n02045369 -> n02046759
+	n02045369 -> n02045864
+	n02021795 -> n02055658
+	n02055658 [label=<s<BR/>p<BR/>h<BR/>e<BR/>n<BR/>i<BR/>s<BR/>c<BR/>i<BR/>f<BR/>o<BR/>r<BR/>m<BR/>_<BR/>s<BR/>e<BR/>a<BR/>b<BR/>i<BR/>r<BR/>d<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n02055658 -> n02055803
+	n01503061 -> n01515583
+	n01515583 [label=<p<BR/>r<BR/>o<BR/>t<BR/>o<BR/>a<BR/>v<BR/>i<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n01517389
+	n01517389 [label=<a<BR/>r<BR/>c<BR/>h<BR/>a<BR/>e<BR/>o<BR/>r<BR/>n<BR/>i<BR/>s<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+	n01503061 -> n02511730
+	n02511730 [label=<t<BR/>w<BR/>i<BR/>t<BR/>t<BR/>e<BR/>r<BR/>e<BR/>r<BR/>.<BR/>n<BR/>.<BR/>0<BR/>1> fillcolor=white fixedsize=false fontsize=30 height=1 shape=box style=filled width=2]
+}
