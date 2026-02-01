@@ -1,0 +1,265 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1500px;
+                 height: 1500px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 1500px;
+                 height: 1500px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#FF9999", "id": "n00001740", "label": "entity.n.01\n0.00", "shape": "dot", "size": 60}, {"color": "#f7f7f7", "id": "n00002137", "label": "abstraction.n.06\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00001930", "label": "physical entity.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00024264", "label": "attribute.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00031921", "label": "relation.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00027807", "label": "shape.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n13865483", "label": "round shape.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n13899200", "label": "sphere.n.05\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n13899404", "label": "ball.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n09289709", "label": "n09289709", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n13809207", "label": "part.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00019613", "label": "substance.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n14939900", "label": "fluid.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n14940386", "label": "liquid.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07881800", "label": "beverage.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07884567", "label": "alcohol.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00020827", "label": "matter.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00002684", "label": "object.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00007347", "label": "causal agent.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00020090", "label": "substance.n.07\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n15046900", "label": "solid.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00021265", "label": "food.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n14778436", "label": "agent.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07570720", "label": "nutriment.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07566340", "label": "foodstuff.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07911371", "label": "n07911371", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07557434", "label": "dish.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07556970", "label": "course.n.07\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07583197", "label": "n07583197", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07712382", "label": "n07712382", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07871810", "label": "n07871810", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07588947", "label": "n07588947", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07880968", "label": "n07880968", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07873807", "label": "n07873807", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07609840", "label": "n07609840", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07809096", "label": "ingredient.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07566863", "label": "starches.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07809368", "label": "n07809368", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07679356", "label": "bread.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07710616", "label": "n07710616", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07680932", "label": "n07680932", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07681926", "label": "n07681926", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07683786", "label": "n07683786", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03247620", "label": "drug.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03248958", "label": "drug of abuse.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07555863", "label": "food.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07705711", "label": "produce.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07622061", "label": "baked goods.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07705931", "label": "edible fruit.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n07707451", "label": "vegetable.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07753275", "label": "n07753275", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07739125", "label": "n07739125", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07753113", "label": "n07753113", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07753592", "label": "n07753592", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07747055", "label": "n07747055", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07742704", "label": "n07742704", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07710007", "label": "n07710007", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07713395", "label": "n07713395", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n07710283", "label": "n07710283", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03892891", "label": "part.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n09287968", "label": "geological formation.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00003553", "label": "whole.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03932203", "label": "piece.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03932670", "label": "piece of cloth.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#c7f2c2", "id": "n03485794", "label": "handkerchief.n.01\n5.00", "shape": "dot", "size": 200}, {"color": "#f7f7f7", "id": "n04459362", "label": "towel.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02808304", "label": "n02808304", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03887697", "label": "n03887697", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n09366317", "label": "natural elevation.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n09359803", "label": "mountain.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#c7f2c2", "id": "n09472597", "label": "volcano.n.02\n4.96", "shape": "dot", "size": 198}, {"color": "#c7f2c2", "id": "n09193705", "label": "alp.n.01\n4.96", "shape": "dot", "size": 198}, {"color": "#f7f7f7", "id": "n00021939", "label": "artifact.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00019128", "label": "natural object.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00004258", "label": "living thing.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03169390", "label": "decoration.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03873064", "label": "padding.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03076708", "label": "commodity.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03122748", "label": "covering.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03309808", "label": "fabric.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00022903", "label": "article.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04188643", "label": "sheet.n.06\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03129123", "label": "creation.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04341686", "label": "structure.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03575240", "label": "instrumentality.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n02681518", "label": "adornment.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03597469", "label": "n03597469", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03151500", "label": "cushion.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03938244", "label": "n03938244", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03093574", "label": "consumer goods.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03252064", "label": "drygoods.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03257877", "label": "n03257877", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03051540", "label": "clothing.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02671780", "label": "n02671780", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03419014", "label": "n03419014", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04596852", "label": "n04596852", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03502509", "label": "n03502509", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02756098", "label": "n02756098", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03381126", "label": "n03381126", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04580298", "label": "n04580298", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04014297", "label": "protective covering.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#c7f2c2", "id": "n03724870", "label": "mask.n.01\n4.96", "shape": "dot", "size": 198}, {"color": "#f7f7f7", "id": "n03380867", "label": "footwear.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03050026", "label": "cloth covering.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03725035", "label": "n03725035", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04151581", "label": "n04151581", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02955065", "label": "n02955065", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04191943", "label": "n04191943", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02739668", "label": "n02739668", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04192858", "label": "n04192858", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02872752", "label": "n02872752", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04199027", "label": "n04199027", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02820210", "label": "n02820210", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04550840", "label": "ware.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04381994", "label": "n04381994", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n02856463", "label": "board.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04149813", "label": "n04149813", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04007894", "label": "product.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04599396", "label": "n04599396", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n02898711", "label": "bridge.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04191595", "label": "shelter.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03297735", "label": "establishment.n.04\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03546340", "label": "housing.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03171356", "label": "defensive structure.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04217882", "label": "signboard.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n02913152", "label": "building.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03839993", "label": "obstruction.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04532670", "label": "n04532670", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04366367", "label": "n04366367", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04311004", "label": "n04311004", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04411264", "label": "n04411264", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03953020", "label": "n03953020", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03776460", "label": "n03776460", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03259505", "label": "n03259505", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03385557", "label": "n03385557", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04417809", "label": "n04417809", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03953416", "label": "n03953416", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03544360", "label": "n03544360", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02796623", "label": "n02796623", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03183080", "label": "device.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n06254669", "label": "medium.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03294048", "label": "equipment.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03563967", "label": "implement.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03100490", "label": "conveyance.n.03\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n04447443", "label": "toiletry.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03405265", "label": "furnishing.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n03094503", "label": "container.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03800933", "label": "n03800933", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02895606", "label": "n02895606", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03574816", "label": "n03574816", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03614007", "label": "n03614007", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03738472", "label": "n03738472", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04074963", "label": "n04074963", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04069276", "label": "n04069276", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04263760", "label": "n04263760", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03508101", "label": "n03508101", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04474466", "label": "n04474466", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03699975", "label": "n03699975", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04081844", "label": "n04081844", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n06263609", "label": "n06263609", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04285146", "label": "n04285146", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03926148", "label": "n03926148", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03414162", "label": "n03414162", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03278248", "label": "n03278248", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04608567", "label": "n04608567", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04516672", "label": "n04516672", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04185071", "label": "n04185071", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04317420", "label": "n04317420", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04451818", "label": "n04451818", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02788689", "label": "n02788689", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04019101", "label": "n04019101", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04524313", "label": "n04524313", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03113152", "label": "n03113152", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03405725", "label": "n03405725", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02946921", "label": "n02946921", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02801938", "label": "n02801938", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02883344", "label": "n02883344", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02773037", "label": "n02773037", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04183329", "label": "n04183329", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03206908", "label": "n03206908", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03291819", "label": "n03291819", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n03733644", "label": "n03733644", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04531098", "label": "n04531098", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04423845", "label": "n04423845", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04576211", "label": "n04576211", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n04139859", "label": "n04139859", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n13086908", "label": "plant part.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n13087625", "label": "plant organ.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n11675842", "label": "n11675842", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00004475", "label": "organism.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00017222", "label": "plant.n.02\n0.00", "shape": "dot", "size": 10}, {"color": "#f7f7f7", "id": "n00015388", "label": "animal.n.01\n0.00", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n13083586", "label": "n13083586", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n01905661", "label": "n01905661", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n01317541", "label": "n01317541", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02384858", "label": "n02384858", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n01466257", "label": "n01466257", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "n02152991", "label": "n02152991", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "n00001740", "to": "n00002137", "width": 1}, {"arrows": "to", "from": "n00001740", "to": "n00001930", "width": 1}, {"arrows": "to", "from": "n00002137", "to": "n00024264", "width": 1}, {"arrows": "to", "from": "n00002137", "to": "n00031921", "width": 1}, {"arrows": "to", "from": "n00024264", "to": "n00027807", "width": 1}, {"arrows": "to", "from": "n00027807", "to": "n13865483", "width": 1}, {"arrows": "to", "from": "n13865483", "to": "n13899200", "width": 1}, {"arrows": "to", "from": "n13899200", "to": "n13899404", "width": 1}, {"arrows": "to", "from": "n13899404", "to": "n09289709", "width": 1}, {"arrows": "to", "from": "n00031921", "to": "n13809207", "width": 1}, {"arrows": "to", "from": "n13809207", "to": "n00019613", "width": 1}, {"arrows": "to", "from": "n00019613", "to": "n14939900", "width": 1}, {"arrows": "to", "from": "n14939900", "to": "n14940386", "width": 1}, {"arrows": "to", "from": "n14940386", "to": "n07881800", "width": 1}, {"arrows": "to", "from": "n07881800", "to": "n07884567", "width": 1}, {"arrows": "to", "from": "n00001930", "to": "n00020827", "width": 1}, {"arrows": "to", "from": "n00001930", "to": "n00002684", "width": 1}, {"arrows": "to", "from": "n00001930", "to": "n00007347", "width": 1}, {"arrows": "to", "from": "n00020827", "to": "n00020090", "width": 1}, {"arrows": "to", "from": "n00020827", "to": "n15046900", "width": 1}, {"arrows": "to", "from": "n00020827", "to": "n00019613", "width": 1}, {"arrows": "to", "from": "n00020090", "to": "n00021265", "width": 1}, {"arrows": "to", "from": "n00020090", "to": "n14778436", "width": 1}, {"arrows": "to", "from": "n00021265", "to": "n07881800", "width": 1}, {"arrows": "to", "from": "n00021265", "to": "n07570720", "width": 1}, {"arrows": "to", "from": "n00021265", "to": "n07566340", "width": 1}, {"arrows": "to", "from": "n07884567", "to": "n07911371", "width": 1}, {"arrows": "to", "from": "n07570720", "to": "n07557434", "width": 1}, {"arrows": "to", "from": "n07570720", "to": "n07556970", "width": 1}, {"arrows": "to", "from": "n07557434", "to": "n07583197", "width": 1}, {"arrows": "to", "from": "n07557434", "to": "n07712382", "width": 1}, {"arrows": "to", "from": "n07557434", "to": "n07871810", "width": 1}, {"arrows": "to", "from": "n07557434", "to": "n07588947", "width": 1}, {"arrows": "to", "from": "n07557434", "to": "n07880968", "width": 1}, {"arrows": "to", "from": "n07557434", "to": "n07873807", "width": 1}, {"arrows": "to", "from": "n07556970", "to": "n07609840", "width": 1}, {"arrows": "to", "from": "n07566340", "to": "n07809096", "width": 1}, {"arrows": "to", "from": "n07566340", "to": "n07566863", "width": 1}, {"arrows": "to", "from": "n07809096", "to": "n07809368", "width": 1}, {"arrows": "to", "from": "n07566863", "to": "n07679356", "width": 1}, {"arrows": "to", "from": "n07566863", "to": "n07710616", "width": 1}, {"arrows": "to", "from": "n07679356", "to": "n07680932", "width": 1}, {"arrows": "to", "from": "n07679356", "to": "n07681926", "width": 1}, {"arrows": "to", "from": "n07679356", "to": "n07683786", "width": 1}, {"arrows": "to", "from": "n14778436", "to": "n03247620", "width": 1}, {"arrows": "to", "from": "n03247620", "to": "n03248958", "width": 1}, {"arrows": "to", "from": "n03248958", "to": "n07884567", "width": 1}, {"arrows": "to", "from": "n15046900", "to": "n07555863", "width": 1}, {"arrows": "to", "from": "n07555863", "to": "n07705711", "width": 1}, {"arrows": "to", "from": "n07555863", "to": "n07622061", "width": 1}, {"arrows": "to", "from": "n07705711", "to": "n07705931", "width": 1}, {"arrows": "to", "from": "n07705711", "to": "n07707451", "width": 1}, {"arrows": "to", "from": "n07705931", "to": "n07753275", "width": 1}, {"arrows": "to", "from": "n07705931", "to": "n07739125", "width": 1}, {"arrows": "to", "from": "n07705931", "to": "n07753113", "width": 1}, {"arrows": "to", "from": "n07705931", "to": "n07753592", "width": 1}, {"arrows": "to", "from": "n07705931", "to": "n07747055", "width": 1}, {"arrows": "to", "from": "n07705931", "to": "n07742704", "width": 1}, {"arrows": "to", "from": "n07707451", "to": "n07710007", "width": 1}, {"arrows": "to", "from": "n07707451", "to": "n07713395", "width": 1}, {"arrows": "to", "from": "n07707451", "to": "n07710283", "width": 1}, {"arrows": "to", "from": "n07622061", "to": "n07679356", "width": 1}, {"arrows": "to", "from": "n00002684", "to": "n03892891", "width": 1}, {"arrows": "to", "from": "n00002684", "to": "n09287968", "width": 1}, {"arrows": "to", "from": "n00002684", "to": "n00003553", "width": 1}, {"arrows": "to", "from": "n03892891", "to": "n03932203", "width": 1}, {"arrows": "to", "from": "n03932203", "to": "n03932670", "width": 1}, {"arrows": "to", "from": "n03932670", "to": "n03485794", "width": 1}, {"arrows": "to", "from": "n03932670", "to": "n04459362", "width": 1}, {"arrows": "to", "from": "n04459362", "to": "n02808304", "width": 1}, {"arrows": "to", "from": "n04459362", "to": "n03887697", "width": 1}, {"arrows": "to", "from": "n09287968", "to": "n09366317", "width": 1}, {"arrows": "to", "from": "n09366317", "to": "n09359803", "width": 1}, {"arrows": "to", "from": "n09359803", "to": "n09472597", "width": 1}, {"arrows": "to", "from": "n09359803", "to": "n09193705", "width": 1}, {"arrows": "to", "from": "n00003553", "to": "n00021939", "width": 1}, {"arrows": "to", "from": "n00003553", "to": "n00019128", "width": 1}, {"arrows": "to", "from": "n00003553", "to": "n00004258", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03169390", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03873064", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03076708", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03122748", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03309808", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n00022903", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n04188643", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03129123", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n04341686", "width": 1}, {"arrows": "to", "from": "n00021939", "to": "n03575240", "width": 1}, {"arrows": "to", "from": "n03169390", "to": "n02681518", "width": 1}, {"arrows": "to", "from": "n02681518", "to": "n03597469", "width": 1}, {"arrows": "to", "from": "n03873064", "to": "n03151500", "width": 1}, {"arrows": "to", "from": "n03151500", "to": "n03938244", "width": 1}, {"arrows": "to", "from": "n03076708", "to": "n03093574", "width": 1}, {"arrows": "to", "from": "n03076708", "to": "n03252064", "width": 1}, {"arrows": "to", "from": "n03093574", "to": "n03257877", "width": 1}, {"arrows": "to", "from": "n03093574", "to": "n03051540", "width": 1}, {"arrows": "to", "from": "n03051540", "to": "n02671780", "width": 1}, {"arrows": "to", "from": "n03051540", "to": "n03419014", "width": 1}, {"arrows": "to", "from": "n03051540", "to": "n04596852", "width": 1}, {"arrows": "to", "from": "n03051540", "to": "n03502509", "width": 1}, {"arrows": "to", "from": "n03051540", "to": "n02756098", "width": 1}, {"arrows": "to", "from": "n03051540", "to": "n03381126", "width": 1}, {"arrows": "to", "from": "n03252064", "to": "n04580298", "width": 1}, {"arrows": "to", "from": "n03122748", "to": "n04014297", "width": 1}, {"arrows": "to", "from": "n03122748", "to": "n03051540", "width": 1}, {"arrows": "to", "from": "n03122748", "to": "n03724870", "width": 1}, {"arrows": "to", "from": "n03122748", "to": "n03380867", "width": 1}, {"arrows": "to", "from": "n03122748", "to": "n03050026", "width": 1}, {"arrows": "to", "from": "n04014297", "to": "n03725035", "width": 1}, {"arrows": "to", "from": "n04014297", "to": "n04151581", "width": 1}, {"arrows": "to", "from": "n04014297", "to": "n02955065", "width": 1}, {"arrows": "to", "from": "n04014297", "to": "n04191943", "width": 1}, {"arrows": "to", "from": "n04014297", "to": "n02739668", "width": 1}, {"arrows": "to", "from": "n04014297", "to": "n04192858", "width": 1}, {"arrows": "to", "from": "n03380867", "to": "n02872752", "width": 1}, {"arrows": "to", "from": "n03380867", "to": "n04199027", "width": 1}, {"arrows": "to", "from": "n03050026", "to": "n02820210", "width": 1}, {"arrows": "to", "from": "n03309808", "to": "n03932670", "width": 1}, {"arrows": "to", "from": "n00022903", "to": "n04550840", "width": 1}, {"arrows": "to", "from": "n04550840", "to": "n04381994", "width": 1}, {"arrows": "to", "from": "n04188643", "to": "n02856463", "width": 1}, {"arrows": "to", "from": "n02856463", "to": "n04149813", "width": 1}, {"arrows": "to", "from": "n03129123", "to": "n04007894", "width": 1}, {"arrows": "to", "from": "n04007894", "to": "n04599396", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n02898711", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n04191595", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n03297735", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n03546340", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n03171356", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n04217882", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n02913152", "width": 1}, {"arrows": "to", "from": "n04341686", "to": "n03839993", "width": 1}, {"arrows": "to", "from": "n02898711", "to": "n04532670", "width": 1}, {"arrows": "to", "from": "n02898711", "to": "n04366367", "width": 1}, {"arrows": "to", "from": "n02898711", "to": "n04311004", "width": 1}, {"arrows": "to", "from": "n04191595", "to": "n04411264", "width": 1}, {"arrows": "to", "from": "n03297735", "to": "n03953020", "width": 1}, {"arrows": "to", "from": "n03546340", "to": "n03776460", "width": 1}, {"arrows": "to", "from": "n03546340", "to": "n03259505", "width": 1}, {"arrows": "to", "from": "n03171356", "to": "n03385557", "width": 1}, {"arrows": "to", "from": "n04217882", "to": "n04149813", "width": 1}, {"arrows": "to", "from": "n02913152", "to": "n04417809", "width": 1}, {"arrows": "to", "from": "n02913152", "to": "n03953416", "width": 1}, {"arrows": "to", "from": "n02913152", "to": "n03544360", "width": 1}, {"arrows": "to", "from": "n03839993", "to": "n02796623", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n03183080", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n06254669", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n03294048", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n03563967", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n03100490", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n04447443", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n03405265", "width": 1}, {"arrows": "to", "from": "n03575240", "to": "n03094503", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n03800933", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n02895606", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n03574816", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n03614007", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n03738472", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n04074963", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n04069276", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n04263760", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n03508101", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n04474466", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n03699975", "width": 1}, {"arrows": "to", "from": "n03183080", "to": "n04081844", "width": 1}, {"arrows": "to", "from": "n06254669", "to": "n06263609", "width": 1}, {"arrows": "to", "from": "n03294048", "to": "n04285146", "width": 1}, {"arrows": "to", "from": "n03294048", "to": "n03926148", "width": 1}, {"arrows": "to", "from": "n03294048", "to": "n03414162", "width": 1}, {"arrows": "to", "from": "n03294048", "to": "n03278248", "width": 1}, {"arrows": "to", "from": "n03563967", "to": "n04608567", "width": 1}, {"arrows": "to", "from": "n03563967", "to": "n04516672", "width": 1}, {"arrows": "to", "from": "n03563967", "to": "n04185071", "width": 1}, {"arrows": "to", "from": "n03563967", "to": "n04317420", "width": 1}, {"arrows": "to", "from": "n03563967", "to": "n04451818", "width": 1}, {"arrows": "to", "from": "n03563967", "to": "n02788689", "width": 1}, {"arrows": "to", "from": "n03100490", "to": "n04019101", "width": 1}, {"arrows": "to", "from": "n03100490", "to": "n04524313", "width": 1}, {"arrows": "to", "from": "n04447443", "to": "n03113152", "width": 1}, {"arrows": "to", "from": "n03405265", "to": "n03405725", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n02946921", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n02801938", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n02883344", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n02773037", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n04183329", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n03206908", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n03291819", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n03733644", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n04531098", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n04423845", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n04576211", "width": 1}, {"arrows": "to", "from": "n03094503", "to": "n04139859", "width": 1}, {"arrows": "to", "from": "n00019128", "to": "n13086908", "width": 1}, {"arrows": "to", "from": "n13086908", "to": "n13087625", "width": 1}, {"arrows": "to", "from": "n13087625", "to": "n11675842", "width": 1}, {"arrows": "to", "from": "n00004258", "to": "n00004475", "width": 1}, {"arrows": "to", "from": "n00004475", "to": "n00017222", "width": 1}, {"arrows": "to", "from": "n00004475", "to": "n00015388", "width": 1}, {"arrows": "to", "from": "n00017222", "to": "n13083586", "width": 1}, {"arrows": "to", "from": "n00015388", "to": "n01905661", "width": 1}, {"arrows": "to", "from": "n00015388", "to": "n01317541", "width": 1}, {"arrows": "to", "from": "n00015388", "to": "n02384858", "width": 1}, {"arrows": "to", "from": "n00015388", "to": "n01466257", "width": 1}, {"arrows": "to", "from": "n00015388", "to": "n02152991", "width": 1}, {"arrows": "to", "from": "n00007347", "to": "n14778436", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
